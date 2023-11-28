@@ -11,6 +11,7 @@ type Props = {
   title: string;
   subtitle: string;
   technologiesIcons: {
+    title: string;
     src: string;
     alt: string;
   }[];
@@ -44,7 +45,10 @@ const Card = ({
         <h2>{t('projects.card.technologies')}</h2>
         <div className="card-techs-img">
           {technologiesIcons.map((icon) => (
-            <img src={icon.src} alt={icon.alt} />
+            <div key={icon.title} className="card-tech-icon">
+              <img src={icon.src} alt={icon.alt} />
+              <p>{icon.title}</p>
+            </div>
           ))}
         </div>
       </div>

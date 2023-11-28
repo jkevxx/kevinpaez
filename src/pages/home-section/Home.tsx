@@ -12,7 +12,7 @@ const Home = () => {
         <h1>{t('home.title')}</h1>
         <h2>{t('home.subtitle')}</h2>
 
-        <div className="contact">
+        <div className="home-contact">
           <a
             className="linkedIn-link"
             href="https://linkedin.com/in/kevin-paez-gallardo"

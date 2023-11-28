@@ -20,6 +20,7 @@ const Navbar = () => {
 
   const handleActive = (section: string) => {
     setActiveSection(section);
+    setIsNavbarActive(false);
   };
 
   return (

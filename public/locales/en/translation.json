@@ -31,9 +31,21 @@
   "contact": {
     "title": "Get in touch with me",
     "form": {
-      "name": "Name",
-      "email": "Email",
-      "message": "Message",
+      "name": {
+        "label": "Name*",
+        "placeholder": "Write your name...",
+        "errorMessage": "should be 3-16 characters and shouldn't include any special character!"
+      },
+      "email": {
+        "label": "Email*",
+        "placeholder": "you@example.com",
+        "errorMessage": "it should be a valid email address!"
+      },
+      "message": {
+        "label": "Message*",
+        "placeholder": "Type your message...",
+        "errorMessage": "it should not be empty!"
+      },
       "button": "Send"
     }
   },

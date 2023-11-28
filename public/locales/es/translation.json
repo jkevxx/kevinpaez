@@ -31,9 +31,21 @@
   "contact": {
     "title": "Ponte en contacto conmigo",
     "form": {
-      "name": "Nombre",
-      "email": "Correo",
-      "message": "Mensaje",
+      "name": {
+        "label": "Nombre*",
+        "placeholder": "Escribe tu nombre...",
+        "errorMessage": "¡Debe tener entre 3 y 16 caracteres y no debe incluir ningún carácter especial!"
+      },
+      "email": {
+        "label": "Correo*",
+        "placeholder": "Escribe tu correo...",
+        "errorMessage": "¡Debe ser un correo valido!"
+      },
+      "message": {
+        "label": "Mensaje*",
+        "placeholder": "Escribe tu mensaje...",
+        "errorMessage": "¡No debería estar vacío!"
+      },
       "button": "Enviar"
     }
   },
