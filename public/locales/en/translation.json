@@ -1,0 +1,43 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About Me",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "Hi, I'm Kevin Paez",
+    "subtitle": "Full Stack Developer",
+    "button": "Download CV"
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "As a passionate and results-driven Full-Stack Developer with experience in web design and development across diverse projects, committed to continuous learning to keep improving my skills.",
+    "experience": "My journey spans over 2 years in web development involving a skill set that spans both front-end and back-end technologies",
+    "final-subtitle": "I’m excited about the endless possibilities that technology offers, and I’m always eager to take on new and exciting projects."
+  },
+  "skills": {
+    "title": "My Skills"
+  },
+  "projects": {
+    "title": "Projects",
+    "card": {
+      "title": "Project",
+      "description": "Description",
+      "technologies": "Technologies:"
+    }
+  },
+  "contact": {
+    "title": "Get in touch with me",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "button": "Send"
+    }
+  },
+  "footer": {
+    "title": "Made with ❤️ by Kevin Paez"
+  }
+}

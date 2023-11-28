@@ -1,0 +1,30 @@
+@import '../../styles/base/variables.scss';
+
+.projects {
+  min-height: 100vh;
+  background-color: $black-color-secondary;
+  color: $white-color-secondary;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 3.6rem;
+
+  .projects-content {
+    max-width: 120rem;
+    width: 80%;
+
+    margin-top: 70px;
+
+    .cards {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+  }
+}

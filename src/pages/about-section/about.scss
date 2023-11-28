@@ -1,0 +1,29 @@
+@import '../../styles/base/variables.scss';
+
+.about {
+  min-height: 50vh;
+  background-color: $black-color-secondary;
+  color: $white-color-secondary;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 3.6rem;
+
+  .about-content {
+    max-width: 120rem;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+
+    p {
+      // max-width: 40rem;
+      width: 84%;
+      font-size: 1.8rem;
+      font-weight: 400;
+      text-wrap: pretty;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+
+  .icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 140px;
+    gap: 10px;
+
+    .icon-img {
+      width: 60px;
+    }
+
+    .icon-title {
+      font-size: 1.6rem;
+      font-weight: 400;
+    }
+  }
+}
