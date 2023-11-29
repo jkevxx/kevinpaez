@@ -1,14 +1,35 @@
 @import '../../styles/base/variables.scss';
 
 footer {
-  min-height: 10vh;
-  background-color: $black-color-secondary;
+  min-height: 12vh;
+  background-color: $black-color-primary;
   color: $white-color-secondary;
   width: 100%;
 
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-evenly;
   align-items: center;
+
+  .footer-contact {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    .linkedIn-link,
+    .github-link {
+      width: 30px;
+      display: inline-block;
+
+      svg {
+        fill: $white-color-secondary;
+
+        &:hover {
+          fill: $purple-color-primary;
+        }
+      }
+    }
+  }
 
   p {
     font-size: 1.8rem;

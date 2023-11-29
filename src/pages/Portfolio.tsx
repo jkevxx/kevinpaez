@@ -1,6 +1,6 @@
 import Navbar from '../components/navbar/Navbar';
 import About from './about-section/About';
-import Contact from './contact-section/Contact';
+// import Contact from './contact-section/Contact';
 import Footer from './footer-section/Footer';
 import Home from './home-section/Home';
 import Projects from './projects-section/Projects';
@@ -14,7 +14,7 @@ const Portfolio = () => {
       <About />
       <Skills />
       <Projects />
-      <Contact />
+      {/* <Contact /> */}
       <Footer />
     </>
   );

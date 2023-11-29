@@ -67,7 +67,7 @@ const Navbar = () => {
             </a>
           </li>
 
-          <li>
+          {/* <li>
             <a
               className={activeSection === 'contact' ? 'active-section' : ''}
               href="#contact"
@@ -75,7 +75,7 @@ const Navbar = () => {
             >
               {t('navbar.contact')}
             </a>
-          </li>
+          </li> */}
         </ul>
       </nav>
       <select

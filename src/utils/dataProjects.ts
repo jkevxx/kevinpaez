@@ -2,7 +2,7 @@ export const dataProjects = [
   {
     id: 'sweet-v2',
     projectImg: {
-      src: '/img/projects/sweet-v2.webp',
+      src: '/img/projects/sweet.webp',
       alt: 'sweet and divine',
     },
     title: 'Sweet and Divine',
@@ -101,7 +101,7 @@ export const dataProjects = [
       src: '/img/projects/socket-io-node-mongodb.webp',
       alt: 'socket io node mongodb',
     },
-    title: 'Socket.io Node MongoDB',
+    title: 'TODO List',
     subtitle: 'This is a simple todo list with socket.io and mongodb',
     technologiesIcons: [
       {
@@ -158,36 +158,6 @@ export const dataProjects = [
     links: {
       github: 'https://github.com/jkevxx/rest-api-images-crud',
       demo: '#',
-    },
-  },
-  {
-    id: 'react-booking-ui',
-    projectImg: {
-      src: '/img/projects/react-booking-ui.webp',
-      alt: 'react booking ui',
-    },
-    title: 'React Booking UI',
-    subtitle: 'React Booking UI developed with React',
-    technologiesIcons: [
-      {
-        title: 'React',
-        src: '/img/front/react.webp',
-        alt: 'react',
-      },
-      {
-        title: 'JavaScript',
-        src: '/img/front/javascript.webp',
-        alt: 'javascript',
-      },
-      {
-        title: 'CSS',
-        src: '/img/front/css3.webp',
-        alt: 'css',
-      },
-    ],
-    links: {
-      github: 'https://github.com/jkevxx/react-booking-ui',
-      demo: 'https://react-booking-ui.netlify.app/',
     },
   },
 ];
