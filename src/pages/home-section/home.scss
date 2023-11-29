@@ -1,4 +1,5 @@
 @import '../../styles/base/variables.scss';
+@import '../../styles/base/mixins.scss';
 
 .home {
   min-height: 100vh;
@@ -6,11 +7,13 @@
   color: $white-color-secondary;
 
   display: flex;
-  // flex-direction: column;
   justify-content: center;
   align-items: center;
-
   font-size: 3.6rem;
+
+  @include responsive-mobile {
+    font-size: 2.4rem;
+  }
 
   .home-content {
     max-width: 120rem;
@@ -18,6 +21,13 @@
     display: flex;
     flex-direction: column;
     gap: 12px;
+
+    @include responsive-mobile {
+      // width: 100%;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+    }
 
     h2 {
       color: $purple-color-primary;
@@ -29,6 +39,10 @@
       display: flex;
       align-items: center;
       gap: 28px;
+
+      @include responsive-mobile {
+        justify-content: center;
+      }
 
       .linkedIn-link,
       .github-link {

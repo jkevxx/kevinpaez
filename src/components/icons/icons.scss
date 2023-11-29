@@ -1,9 +1,15 @@
+@import '../../styles/base/mixins.scss';
+
 .icons {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap: 10px;
+
+  @include responsive-mobile {
+    margin-top: 10px;
+  }
 
   .icon {
     display: flex;
@@ -13,6 +19,11 @@
     width: 160px;
     height: 140px;
     gap: 10px;
+
+    @include responsive-mobile {
+      width: 120px;
+      height: 120px;
+    }
 
     .icon-img {
       width: 60px;

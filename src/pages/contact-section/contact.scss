@@ -1,4 +1,5 @@
 @import '../../styles/base/variables.scss';
+@import '../../styles/base/mixins.scss';
 
 .contact {
   min-height: 100vh;
@@ -11,6 +12,11 @@
 
   font-size: 3.6rem;
 
+  @include responsive-mobile {
+    font-size: 2.4rem;
+    text-align: center;
+  }
+
   .contact-content {
     max-width: 120rem;
     width: 80%;
@@ -20,5 +26,9 @@
     justify-content: center;
     align-items: center;
     gap: 26px;
+
+    @include responsive-mobile {
+      margin-top: 80px;
+    }
   }
 }
