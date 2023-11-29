@@ -15,7 +15,6 @@ header {
   // background-color: $black-color-primary;
   border-bottom: 1px solid $purple-color-primary;
   position: fixed;
-  backdrop-filter: blur(8px);
 
   @include responsive-mobile {
     justify-content: flex-end;
@@ -25,6 +24,7 @@ header {
     height: 100%;
     width: 90%;
     color: $white-color-secondary;
+    // backdrop-filter: blur(8px);
 
     display: flex;
     justify-content: flex-end;
@@ -150,4 +150,8 @@ header {
     right: 10px;
     top: -4px;
   }
+}
+
+.active-blur {
+  backdrop-filter: blur(8px);
 }

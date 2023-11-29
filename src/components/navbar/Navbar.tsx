@@ -24,7 +24,7 @@ const Navbar = () => {
   };
 
   return (
-    <header>
+    <header className={`header  ${isNavbarActive ? '' : 'active-blur'}`}>
       <nav className={`navbar ${isNavbarActive ? 'active-navbar' : ''}`}>
         <ul>
           <li>
