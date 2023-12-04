@@ -1,5 +1,42 @@
 export const dataProjects = [
   {
+    id: 'blog-api-rest',
+    projectImg: {
+      src: '/img/projects/blog-api-rest.webp',
+      alt: 'Blog API REST',
+    },
+    title: 'Blog API REST',
+    subtitle:
+      'This is a blog API REST with Express, MongoDB and authentication with JWT',
+    technologiesIcons: [
+      {
+        title: 'Express',
+        src: '/img/back/express.webp',
+        alt: 'express',
+      },
+      {
+        title: 'MongoDB',
+        src: '/img/back/mongodb.webp',
+        alt: 'mongodb',
+      },
+      {
+        title: 'Jest',
+        src: '/img/back/jest.webp',
+        alt: 'jest',
+      },
+      {
+        title: 'Postman',
+        src: '/img/back/postman.webp',
+        alt: 'postman',
+      },
+    ],
+    links: {
+      github: 'https://github.com/jkevxx/blog-api-rest',
+      demo: 'https://sweetndivine.com/',
+    },
+    hasDemo: false,
+  },
+  {
     id: 'sweet-v2',
     projectImg: {
       src: '/img/projects/sweet.webp',
@@ -28,6 +65,7 @@ export const dataProjects = [
       github: 'https://github.com/ProyectsBlueberry/SWEET_V2',
       demo: 'https://sweetndivine.com/',
     },
+    hasDemo: true,
   },
   {
     id: 'express-apollo-mongodb',
@@ -63,6 +101,7 @@ export const dataProjects = [
       github: 'https://github.com/jkevxx/express-apollo-mongodb',
       demo: '#',
     },
+    hasDemo: false,
   },
   {
     id: 'react-admin-dashboard',
@@ -94,6 +133,7 @@ export const dataProjects = [
       github: 'https://github.com/jkevxx/react-admin-dashboard',
       demo: '#',
     },
+    hasDemo: false,
   },
   {
     id: 'socket-io-node-mongodb',
@@ -129,6 +169,7 @@ export const dataProjects = [
       github: 'https://github.com/jkevxx/rest-api-images-crud',
       demo: '#',
     },
+    hasDemo: false,
   },
   {
     id: 'rest-api-images-crud',
@@ -159,5 +200,6 @@ export const dataProjects = [
       github: 'https://github.com/jkevxx/rest-api-images-crud',
       demo: '#',
     },
+    hasDemo: false,
   },
 ];

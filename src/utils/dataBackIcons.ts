@@ -80,6 +80,14 @@ export const dataBackIcons = [
     },
   },
   {
+    id: 'jwt',
+    title: 'JTW',
+    img: {
+      src: '/img/back/jwt.webp',
+      alt: 'jtw',
+    },
+  },
+  {
     id: 'git',
     title: 'Git',
     img: {

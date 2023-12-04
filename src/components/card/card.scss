@@ -112,12 +112,14 @@
   .card-buttons {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 20px 40px;
+    gap: 40px;
 
     @include responsive-mobile {
       padding: 20px 20px;
+      gap: 16px;
     }
 
     a {

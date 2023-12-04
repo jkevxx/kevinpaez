@@ -19,6 +19,7 @@ type Props = {
     github: string;
     demo: string;
   };
+  hasDemo: boolean;
 };
 
 const Card = ({
@@ -27,6 +28,7 @@ const Card = ({
   subtitle,
   technologiesIcons,
   links,
+  hasDemo,
 }: Props) => {
   const { t } = useTranslation();
 
@@ -58,10 +60,12 @@ const Card = ({
           <GithubSVG />
           GitHub
         </a>
-        <a href={links.demo} target="_blank">
-          <ShareSVG />
-          Demo
-        </a>
+        {hasDemo && (
+          <a href={links.demo} target="_blank">
+            <ShareSVG />
+            Demo
+          </a>
+        )}
       </div>
     </div>
   );
