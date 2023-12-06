@@ -1,5 +1,32 @@
 export const dataProjects = [
   {
+    id: 'dog-grooming-system',
+    projectImg: {
+      src: '/img/projects/dog-grooming-system.webp',
+      alt: 'Dog Grooming System',
+    },
+    title: 'Dog Grooming System',
+    subtitle:
+      'This is simple dog grooming system built with Java and Hibernate',
+    technologiesIcons: [
+      {
+        title: 'Java',
+        src: '/img/back/java.webp',
+        alt: 'java',
+      },
+      {
+        title: 'Hibernate',
+        src: '/img/back/hibernate.webp',
+        alt: 'hibernate',
+      },
+    ],
+    links: {
+      github: 'https://github.com/jkevxx/dog-grooming-system',
+      demo: '#',
+    },
+    hasDemo: false,
+  },
+  {
     id: 'blog-api-rest',
     projectImg: {
       src: '/img/projects/blog-api-rest.webp',
@@ -32,7 +59,7 @@ export const dataProjects = [
     ],
     links: {
       github: 'https://github.com/jkevxx/blog-api-rest',
-      demo: 'https://sweetndivine.com/',
+      demo: '#',
     },
     hasDemo: false,
   },

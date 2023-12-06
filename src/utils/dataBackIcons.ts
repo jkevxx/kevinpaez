@@ -48,6 +48,14 @@ export const dataBackIcons = [
     },
   },
   {
+    id: 'hibernate',
+    title: 'Hibernate',
+    img: {
+      src: '/img/back/hibernate.webp',
+      alt: 'hibernate',
+    },
+  },
+  {
     id: 'python',
     title: 'Python',
     img: {
@@ -81,10 +89,10 @@ export const dataBackIcons = [
   },
   {
     id: 'jwt',
-    title: 'JTW',
+    title: 'JWT',
     img: {
       src: '/img/back/jwt.webp',
-      alt: 'jtw',
+      alt: 'jwt',
     },
   },
   {
