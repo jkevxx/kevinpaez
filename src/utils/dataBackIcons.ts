@@ -40,6 +40,22 @@ export const dataBackIcons = [
     },
   },
   {
+    id: 'git',
+    title: 'Git',
+    img: {
+      src: '/img/back/git.webp',
+      alt: 'git',
+    },
+  },
+  {
+    id: 'github',
+    title: 'GitHub',
+    img: {
+      src: '/img/back/github.webp',
+      alt: 'github',
+    },
+  },
+  {
     id: 'java',
     title: 'Java',
     img: {
@@ -53,6 +69,22 @@ export const dataBackIcons = [
     img: {
       src: '/img/back/hibernate.webp',
       alt: 'hibernate',
+    },
+  },
+  {
+    id: 'spring-boot',
+    title: 'Spring Boot',
+    img: {
+      src: '/img/back/spring-boot.webp',
+      alt: 'spring boot',
+    },
+  },
+  {
+    id: 'jwt',
+    title: 'JWT',
+    img: {
+      src: '/img/back/jwt.webp',
+      alt: 'jwt',
     },
   },
   {
@@ -85,30 +117,6 @@ export const dataBackIcons = [
     img: {
       src: '/img/back/postgresql.webp',
       alt: 'postgresql',
-    },
-  },
-  {
-    id: 'jwt',
-    title: 'JWT',
-    img: {
-      src: '/img/back/jwt.webp',
-      alt: 'jwt',
-    },
-  },
-  {
-    id: 'git',
-    title: 'Git',
-    img: {
-      src: '/img/back/git.webp',
-      alt: 'git',
-    },
-  },
-  {
-    id: 'github',
-    title: 'GitHub',
-    img: {
-      src: '/img/back/github.webp',
-      alt: 'github',
     },
   },
   {

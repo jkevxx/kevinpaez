@@ -1,5 +1,42 @@
 export const dataProjects = [
   {
+    id: 'once-movies-api',
+    projectImg: {
+      src: '',
+      alt: 'Once Movies API',
+    },
+    title: 'Once Movies API',
+    subtitle:
+      'This is an API built with Spring Boot, Java, Hibernate and MySQL',
+    technologiesIcons: [
+      {
+        title: 'Spring Boot',
+        src: '/img/back/spring-boot.webp',
+        alt: 'spring boot',
+      },
+      {
+        title: 'Hibernate',
+        src: '/img/back/hibernate.webp',
+        alt: 'hibernate',
+      },
+      {
+        title: 'MySQL',
+        src: '/img/back/mysql.webp',
+        alt: 'mysql',
+      },
+      {
+        title: 'Postman',
+        src: '/img/back/postman.webp',
+        alt: 'postman',
+      },
+    ],
+    links: {
+      github: 'https://github.com/jkevxx/once_movies_api',
+      demo: '#',
+    },
+    hasDemo: false,
+  },
+  {
     id: 'dog-grooming-system',
     projectImg: {
       src: '/img/projects/dog-grooming-system.webp',
@@ -18,6 +55,11 @@ export const dataProjects = [
         title: 'Hibernate',
         src: '/img/back/hibernate.webp',
         alt: 'hibernate',
+      },
+      {
+        title: 'MySQL',
+        src: '/img/back/mysql.webp',
+        alt: 'mysql',
       },
     ],
     links: {
