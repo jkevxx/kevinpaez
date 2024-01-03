@@ -1,5 +1,42 @@
 export const dataProjects = [
   {
+    id: 'Weather App',
+    projectImg: {
+      src: '/img/projects/weather-app.webp',
+      alt: 'Weather app',
+    },
+    title: 'Weather app',
+    subtitle:
+      'This is Weather App built with React and Redux Toolkit, TypeScript and Material UI',
+    technologiesIcons: [
+      {
+        title: 'React',
+        src: '/img/front/react.webp',
+        alt: 'react',
+      },
+      {
+        title: 'TypeScript',
+        src: '/img/front/typescript.webp',
+        alt: 'typescript',
+      },
+      {
+        title: 'Redux Toolkit',
+        src: '/img/front/redux.webp',
+        alt: 'Redux Toolkit',
+      },
+      {
+        title: 'Material UI',
+        src: '/img/front/materialui.webp',
+        alt: 'Material UI',
+      },
+    ],
+    links: {
+      github: 'https://github.com/jkevxx/weather-app',
+      demo: 'https://weather-app-jkevxx.vercel.app/',
+    },
+    hasDemo: true,
+  },
+  {
     id: 'once-movies-api',
     projectImg: {
       src: '',

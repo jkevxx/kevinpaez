@@ -80,11 +80,11 @@ export const dataFrontIcons = [
     },
   },
   {
-    id: 'redux',
-    title: 'Redux',
+    id: 'redux-toolkit',
+    title: 'Redux Toolkit',
     img: {
       src: '/img/front/redux.webp',
-      alt: 'redux',
+      alt: 'redux toolkit',
     },
   },
   {
