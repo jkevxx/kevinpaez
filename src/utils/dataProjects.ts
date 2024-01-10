@@ -210,38 +210,6 @@ export const dataProjects = [
     hasDemo: false,
   },
   {
-    id: 'react-admin-dashboard',
-    projectImg: {
-      src: '/img/projects/react-admin-dashboard.webp',
-      alt: 'react admin dashboard',
-    },
-    title: 'Admin Dashboard',
-    subtitle:
-      'This is a simple admin dashboard with react, typescript and sass',
-    technologiesIcons: [
-      {
-        title: 'React',
-        src: '/img/front/react.webp',
-        alt: 'react',
-      },
-      {
-        title: 'TypeScript',
-        src: '/img/front/typescript.webp',
-        alt: 'typescript',
-      },
-      {
-        title: 'Sass',
-        src: '/img/front/sass.webp',
-        alt: 'sass',
-      },
-    ],
-    links: {
-      github: 'https://github.com/jkevxx/react-admin-dashboard',
-      demo: '#',
-    },
-    hasDemo: false,
-  },
-  {
     id: 'socket-io-node-mongodb',
     projectImg: {
       src: '/img/projects/socket-io-node-mongodb.webp',
