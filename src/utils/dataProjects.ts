@@ -246,34 +246,65 @@ export const dataProjects = [
     hasDemo: false,
   },
   {
-    id: 'rest-api-images-crud',
+    id: 'mi-cartilla',
     projectImg: {
-      src: '/img/projects/rest-api-images-crud.webp',
-      alt: 'rest api images crud',
+      src: '/img/projects/mi-cartilla.webp',
+      alt: 'mi cartilla',
     },
-    title: 'API REST Images CRUD',
-    subtitle: 'this is a rest api images CRUD to allow users to upload images',
+    title: 'Mi Cartilla',
+    subtitle: 'This is a system for register and manage vaccines',
     technologiesIcons: [
       {
-        title: 'NodeJS',
-        src: '/img/back/nodejs.webp',
-        alt: 'nodejs',
+        title: 'PHP',
+        src: '/img/back/php.webp',
+        alt: 'php',
       },
       {
-        title: 'Express',
-        src: '/img/back/express.webp',
-        alt: 'express',
+        title: 'CSS3',
+        src: '/img/front/css3.webp',
+        alt: 'css3',
       },
       {
-        title: 'MongoDB',
-        src: '/img/back/mongodb.webp',
-        alt: 'mongodb',
+        title: 'MySQL',
+        src: '/img/back/mysql.webp',
+        alt: 'mysql',
       },
     ],
     links: {
-      github: 'https://github.com/jkevxx/rest-api-images-crud',
+      github: 'https://github.com/jkevxx/micartilla',
       demo: '#',
     },
     hasDemo: false,
   },
+  // {
+  //   id: 'rest-api-images-crud',
+  //   projectImg: {
+  //     src: '/img/projects/rest-api-images-crud.webp',
+  //     alt: 'rest api images crud',
+  //   },
+  //   title: 'API REST Images CRUD',
+  //   subtitle: 'this is a rest api images CRUD to allow users to upload images',
+  //   technologiesIcons: [
+  //     {
+  //       title: 'NodeJS',
+  //       src: '/img/back/nodejs.webp',
+  //       alt: 'nodejs',
+  //     },
+  //     {
+  //       title: 'Express',
+  //       src: '/img/back/express.webp',
+  //       alt: 'express',
+  //     },
+  //     {
+  //       title: 'MongoDB',
+  //       src: '/img/back/mongodb.webp',
+  //       alt: 'mongodb',
+  //     },
+  //   ],
+  //   links: {
+  //     github: 'https://github.com/jkevxx/rest-api-images-crud',
+  //     demo: '#',
+  //   },
+  //   hasDemo: false,
+  // },
 ];

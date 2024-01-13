@@ -1,18 +1,18 @@
 export const dataFrontIcons = [
   {
     id: 'html5',
-    title: 'HTML 5',
+    title: 'HTML5',
     img: {
       src: '/img/front/html5.webp',
-      alt: 'html 5',
+      alt: 'html5',
     },
   },
   {
     id: 'css3',
-    title: 'CSS 3',
+    title: 'CSS3',
     img: {
       src: '/img/front/css3.webp',
-      alt: 'css 3',
+      alt: 'css3',
     },
   },
   {

@@ -88,6 +88,14 @@ export const dataBackIcons = [
     },
   },
   {
+    id: 'php',
+    title: 'PHP',
+    img: {
+      src: '/img/back/php.webp',
+      alt: 'php',
+    },
+  },
+  {
     id: 'python',
     title: 'Python',
     img: {
