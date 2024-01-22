@@ -58,11 +58,11 @@ const Form = () => {
 
     if (values.name == '' || values.email == '' || values.message == '') {
       setIsEmpty(true);
-      console.log('empty form', isEmpty);
+      // console.log('empty form', isEmpty);
     } else {
       setValues(formValues);
       setIsEmpty(false);
-      console.log(values);
+      // console.log(values);
     }
   };
 

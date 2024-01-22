@@ -5,6 +5,7 @@ import './textarea.scss';
 type Props = {
   value: string;
   isEmpty: boolean | undefined;
+  /* eslint-disable-next-line no-unused-vars */
   onChange: (event: React.ChangeEvent<HTMLTextAreaElement>) => void;
 };
 
@@ -22,7 +23,7 @@ const Textarea = ({ value, isEmpty, onChange }: Props) => {
     } else {
       setFocused(false);
     }
-    console.log('input empty', isEmpty);
+    // console.log('input empty', isEmpty);
   }, [isEmpty]);
 
   return (
