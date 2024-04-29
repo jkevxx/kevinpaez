@@ -29,9 +29,9 @@ const Home = () => {
             >
               <GithubSVG />
             </a>
-            <a className="cv-btn" href={t('home.cvLink')} target="_blank">
+            {/* <a className="cv-btn" href={t('home.cvLink')} target="_blank">
               <p>{t('home.button')}</p>
-            </a>
+            </a> */}
           </div>
         </div>
         <figure className="home-photo">

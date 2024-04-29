@@ -64,6 +64,14 @@ export const dataBackIcons = [
     },
   },
   {
+    id: 'maven',
+    title: 'Maven',
+    img: {
+      src: '/img/back/maven.webp',
+      alt: 'maven',
+    },
+  },
+  {
     id: 'hibernate',
     title: 'Hibernate',
     img: {
@@ -87,14 +95,14 @@ export const dataBackIcons = [
       alt: 'jwt',
     },
   },
-  {
-    id: 'php',
-    title: 'PHP',
-    img: {
-      src: '/img/back/php.webp',
-      alt: 'php',
-    },
-  },
+  // {
+  //   id: 'php',
+  //   title: 'PHP',
+  //   img: {
+  //     src: '/img/back/php.webp',
+  //     alt: 'php',
+  //   },
+  // },
   {
     id: 'python',
     title: 'Python',
