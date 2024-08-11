@@ -88,6 +88,14 @@ export const dataBackIcons = [
     },
   },
   {
+    id: 'spring-security',
+    title: 'Spring Security',
+    img: {
+      src: '/img/back/spring-security.webp',
+      alt: 'spring security',
+    },
+  },
+  {
     id: 'jwt',
     title: 'JWT',
     img: {

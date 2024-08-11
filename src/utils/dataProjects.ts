@@ -1,41 +1,41 @@
 export const dataProjects = [
-  {
-    id: 'Weather App',
-    projectImg: {
-      src: '/img/projects/weather-app.webp',
-      alt: 'Weather app',
-    },
-    title: 'Weather app',
-    subtitle:
-      'This is Weather App built with React and Redux Toolkit, TypeScript and Material UI',
-    technologiesIcons: [
-      {
-        title: 'React',
-        src: '/img/front/react.webp',
-        alt: 'react',
-      },
-      {
-        title: 'TypeScript',
-        src: '/img/front/typescript.webp',
-        alt: 'typescript',
-      },
-      {
-        title: 'Redux Toolkit',
-        src: '/img/front/redux.webp',
-        alt: 'Redux Toolkit',
-      },
-      {
-        title: 'Material UI',
-        src: '/img/front/materialui.webp',
-        alt: 'Material UI',
-      },
-    ],
-    links: {
-      github: 'https://github.com/jkevxx/weather-app',
-      demo: 'https://weather-app-jkevxx.vercel.app/',
-    },
-    hasDemo: true,
-  },
+  // {
+  //   id: 'Weather App',
+  //   projectImg: {
+  //     src: '/img/projects/weather-app.webp',
+  //     alt: 'Weather app',
+  //   },
+  //   title: 'Weather app',
+  //   subtitle:
+  //     'This is Weather App built with React and Redux Toolkit, TypeScript and Material UI',
+  //   technologiesIcons: [
+  //     {
+  //       title: 'React',
+  //       src: '/img/front/react.webp',
+  //       alt: 'react',
+  //     },
+  //     {
+  //       title: 'TypeScript',
+  //       src: '/img/front/typescript.webp',
+  //       alt: 'typescript',
+  //     },
+  //     {
+  //       title: 'Redux Toolkit',
+  //       src: '/img/front/redux.webp',
+  //       alt: 'Redux Toolkit',
+  //     },
+  //     {
+  //       title: 'Material UI',
+  //       src: '/img/front/materialui.webp',
+  //       alt: 'Material UI',
+  //     },
+  //   ],
+  //   links: {
+  //     github: 'https://github.com/jkevxx/weather-app',
+  //     demo: 'https://weather-app-jkevxx.vercel.app/',
+  //   },
+  //   hasDemo: true,
+  // },
   {
     id: 'once-movies-api',
     projectImg: {
@@ -73,38 +73,38 @@ export const dataProjects = [
     },
     hasDemo: false,
   },
-  {
-    id: 'dog-grooming-system',
-    projectImg: {
-      src: '/img/projects/dog-grooming-system.webp',
-      alt: 'Dog Grooming System',
-    },
-    title: 'Dog Grooming System',
-    subtitle:
-      'This is simple dog grooming system built with Java and Hibernate',
-    technologiesIcons: [
-      {
-        title: 'Java',
-        src: '/img/back/java.webp',
-        alt: 'java',
-      },
-      {
-        title: 'Hibernate',
-        src: '/img/back/hibernate.webp',
-        alt: 'hibernate',
-      },
-      {
-        title: 'MySQL',
-        src: '/img/back/mysql.webp',
-        alt: 'mysql',
-      },
-    ],
-    links: {
-      github: 'https://github.com/jkevxx/dog-grooming-system',
-      demo: '#',
-    },
-    hasDemo: false,
-  },
+  // {
+  //   id: 'dog-grooming-system',
+  //   projectImg: {
+  //     src: '/img/projects/dog-grooming-system.webp',
+  //     alt: 'Dog Grooming System',
+  //   },
+  //   title: 'Dog Grooming System',
+  //   subtitle:
+  //     'This is simple dog grooming system built with Java and Hibernate',
+  //   technologiesIcons: [
+  //     {
+  //       title: 'Java',
+  //       src: '/img/back/java.webp',
+  //       alt: 'java',
+  //     },
+  //     {
+  //       title: 'Hibernate',
+  //       src: '/img/back/hibernate.webp',
+  //       alt: 'hibernate',
+  //     },
+  //     {
+  //       title: 'MySQL',
+  //       src: '/img/back/mysql.webp',
+  //       alt: 'mysql',
+  //     },
+  //   ],
+  //   links: {
+  //     github: 'https://github.com/jkevxx/dog-grooming-system',
+  //     demo: '#',
+  //   },
+  //   hasDemo: false,
+  // },
   {
     id: 'blog-api-rest',
     projectImg: {
@@ -209,73 +209,73 @@ export const dataProjects = [
     },
     hasDemo: false,
   },
-  {
-    id: 'socket-io-node-mongodb',
-    projectImg: {
-      src: '/img/projects/socket-io-node-mongodb.webp',
-      alt: 'socket io node mongodb',
-    },
-    title: 'TODO List',
-    subtitle: 'This is a simple todo list with socket.io and mongodb',
-    technologiesIcons: [
-      {
-        title: 'NodeJS',
-        src: '/img/back/nodejs.webp',
-        alt: 'nodejs',
-      },
-      {
-        title: 'Express',
-        src: '/img/back/express.webp',
-        alt: 'express',
-      },
-      {
-        title: 'MongoDB',
-        src: '/img/back/mongodb.webp',
-        alt: 'mongodb',
-      },
-      {
-        title: 'Socket.io',
-        src: '/img/back/socket-io.webp',
-        alt: 'socket.io',
-      },
-    ],
-    links: {
-      github: 'https://github.com/jkevxx/rest-api-images-crud',
-      demo: '#',
-    },
-    hasDemo: false,
-  },
-  {
-    id: 'mi-cartilla',
-    projectImg: {
-      src: '/img/projects/mi-cartilla.webp',
-      alt: 'mi cartilla',
-    },
-    title: 'Mi Cartilla',
-    subtitle: 'This is a system for register and manage vaccines',
-    technologiesIcons: [
-      {
-        title: 'PHP',
-        src: '/img/back/php.webp',
-        alt: 'php',
-      },
-      {
-        title: 'CSS3',
-        src: '/img/front/css3.webp',
-        alt: 'css3',
-      },
-      {
-        title: 'MySQL',
-        src: '/img/back/mysql.webp',
-        alt: 'mysql',
-      },
-    ],
-    links: {
-      github: 'https://github.com/jkevxx/micartilla',
-      demo: '#',
-    },
-    hasDemo: false,
-  },
+  // {
+  //   id: 'socket-io-node-mongodb',
+  //   projectImg: {
+  //     src: '/img/projects/socket-io-node-mongodb.webp',
+  //     alt: 'socket io node mongodb',
+  //   },
+  //   title: 'TODO List',
+  //   subtitle: 'This is a simple todo list with socket.io and mongodb',
+  //   technologiesIcons: [
+  //     {
+  //       title: 'NodeJS',
+  //       src: '/img/back/nodejs.webp',
+  //       alt: 'nodejs',
+  //     },
+  //     {
+  //       title: 'Express',
+  //       src: '/img/back/express.webp',
+  //       alt: 'express',
+  //     },
+  //     {
+  //       title: 'MongoDB',
+  //       src: '/img/back/mongodb.webp',
+  //       alt: 'mongodb',
+  //     },
+  //     {
+  //       title: 'Socket.io',
+  //       src: '/img/back/socket-io.webp',
+  //       alt: 'socket.io',
+  //     },
+  //   ],
+  //   links: {
+  //     github: 'https://github.com/jkevxx/rest-api-images-crud',
+  //     demo: '#',
+  //   },
+  //   hasDemo: false,
+  // },
+  // {
+  //   id: 'mi-cartilla',
+  //   projectImg: {
+  //     src: '/img/projects/mi-cartilla.webp',
+  //     alt: 'mi cartilla',
+  //   },
+  //   title: 'Mi Cartilla',
+  //   subtitle: 'This is a system for register and manage vaccines',
+  //   technologiesIcons: [
+  //     {
+  //       title: 'PHP',
+  //       src: '/img/back/php.webp',
+  //       alt: 'php',
+  //     },
+  //     {
+  //       title: 'CSS3',
+  //       src: '/img/front/css3.webp',
+  //       alt: 'css3',
+  //     },
+  //     {
+  //       title: 'MySQL',
+  //       src: '/img/back/mysql.webp',
+  //       alt: 'mysql',
+  //     },
+  //   ],
+  //   links: {
+  //     github: 'https://github.com/jkevxx/micartilla',
+  //     demo: '#',
+  //   },
+  //   hasDemo: false,
+  // },
   // {
   //   id: 'rest-api-images-crud',
   //   projectImg: {
