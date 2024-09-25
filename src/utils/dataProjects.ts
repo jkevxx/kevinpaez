@@ -1,42 +1,5 @@
 export const dataProjects = [
   // {
-  //   id: 'Weather App',
-  //   projectImg: {
-  //     src: '/img/projects/weather-app.webp',
-  //     alt: 'Weather app',
-  //   },
-  //   title: 'Weather app',
-  //   subtitle:
-  //     'This is Weather App built with React and Redux Toolkit, TypeScript and Material UI',
-  //   technologiesIcons: [
-  //     {
-  //       title: 'React',
-  //       src: '/img/front/react.webp',
-  //       alt: 'react',
-  //     },
-  //     {
-  //       title: 'TypeScript',
-  //       src: '/img/front/typescript.webp',
-  //       alt: 'typescript',
-  //     },
-  //     {
-  //       title: 'Redux Toolkit',
-  //       src: '/img/front/redux.webp',
-  //       alt: 'Redux Toolkit',
-  //     },
-  //     {
-  //       title: 'Material UI',
-  //       src: '/img/front/materialui.webp',
-  //       alt: 'Material UI',
-  //     },
-  //   ],
-  //   links: {
-  //     github: 'https://github.com/jkevxx/weather-app',
-  //     demo: 'https://weather-app-jkevxx.vercel.app/',
-  //   },
-  //   hasDemo: true,
-  // },
-  // {
   //   id: 'once-movies-api',
   //   projectImg: {
   //     src: '',
@@ -106,6 +69,74 @@ export const dataProjects = [
   //   hasDemo: false,
   // },
   {
+    id: 'sweet-v2',
+    projectImg: {
+      src: '/img/projects/sweet.webp',
+      alt: 'sweet and divine',
+    },
+    title: 'Sweet and Divine',
+    subtitle: 'This is landing page for a real client',
+    technologiesIcons: [
+      {
+        title: 'React',
+        src: '/img/front/react.webp',
+        alt: 'react',
+      },
+      {
+        title: 'TypeScript',
+        src: '/img/front/typescript.webp',
+        alt: 'typescript',
+      },
+      {
+        title: 'Sass',
+        src: '/img/front/sass.webp',
+        alt: 'sass',
+      },
+    ],
+    links: {
+      github: 'https://github.com/ProyectsBlueberry/SWEET_V2',
+      demo: 'https://sweetndivine.com/',
+    },
+    hasDemo: true,
+  },
+  {
+    id: 'Weather App',
+    projectImg: {
+      src: '/img/projects/weather-app.webp',
+      alt: 'Weather app',
+    },
+    title: 'Weather app',
+    subtitle:
+      'This is Weather App built with React and Redux Toolkit, TypeScript and Material UI',
+    technologiesIcons: [
+      {
+        title: 'React',
+        src: '/img/front/react.webp',
+        alt: 'react',
+      },
+      {
+        title: 'TypeScript',
+        src: '/img/front/typescript.webp',
+        alt: 'typescript',
+      },
+      {
+        title: 'Redux Toolkit',
+        src: '/img/front/redux.webp',
+        alt: 'Redux Toolkit',
+      },
+      {
+        title: 'Material UI',
+        src: '/img/front/materialui.webp',
+        alt: 'Material UI',
+      },
+    ],
+    links: {
+      github: 'https://github.com/jkevxx/weather-app',
+      demo: 'https://weather-app-jkevxx.vercel.app/',
+    },
+    hasDemo: true,
+  },
+  {
     id: 'blog-api-rest',
     projectImg: {
       src: '/img/projects/blog-api-rest.webp',
@@ -141,37 +172,6 @@ export const dataProjects = [
       demo: '#',
     },
     hasDemo: false,
-  },
-  {
-    id: 'sweet-v2',
-    projectImg: {
-      src: '/img/projects/sweet.webp',
-      alt: 'sweet and divine',
-    },
-    title: 'Sweet and Divine',
-    subtitle: 'This is landing page for a real client',
-    technologiesIcons: [
-      {
-        title: 'React',
-        src: '/img/front/react.webp',
-        alt: 'react',
-      },
-      {
-        title: 'TypeScript',
-        src: '/img/front/typescript.webp',
-        alt: 'typescript',
-      },
-      {
-        title: 'Sass',
-        src: '/img/front/sass.webp',
-        alt: 'sass',
-      },
-    ],
-    links: {
-      github: 'https://github.com/ProyectsBlueberry/SWEET_V2',
-      demo: 'https://sweetndivine.com/',
-    },
-    hasDemo: true,
   },
   {
     id: 'express-apollo-mongodb',
