@@ -1,4 +1,42 @@
 export const dataProjects = [
+  {
+    id: 'spring-microservices-beginners',
+    projectImg: {
+      src: '',
+      alt: 'Spring Microservices Beginners',
+    },
+    title: 'Spring Microservices Beginners',
+    subtitle:
+      'This is an API REST with microservices architecture in Spring Boot',
+    technologiesIcons: [
+      {
+        title: 'Spring Boot',
+        src: '/img/back/spring-boot.webp',
+        alt: 'spring boot',
+      },
+      {
+        title: 'Maven',
+        src: '/img/back/maven.webp',
+        alt: 'hibernate',
+      },
+      {
+        title: 'MySQL',
+        src: '/img/back/mysql.webp',
+        alt: 'mysql',
+      },
+      {
+        title: 'PostgreSQL',
+        src: '/img/back/postgresql.webp',
+        alt: 'postman',
+      },
+    ],
+    links: {
+      github: 'https://github.com/jkevxx/spring-microservices',
+      demo: '#',
+    },
+    hasDemo: false,
+  },
+
   // {
   //   id: 'once-movies-api',
   //   projectImg: {
