@@ -2,7 +2,7 @@ export const dataProjects = [
   {
     id: 'spring-microservices-beginners',
     projectImg: {
-      src: '',
+      src: '/img/back/',
       alt: 'Spring Microservices Beginners',
     },
     title: 'Spring Microservices Beginners',
