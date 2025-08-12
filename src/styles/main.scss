@@ -1,5 +1,9 @@
-@import './base/typography.scss';
-@import './base/variables.scss';
+@use './base/typography.scss';
+@use './base/variables.scss';
+
+// @forward './base/typography';
+// @forward './base/variables';
+// @forward './base/mixins';
 
 * {
   margin: 0;

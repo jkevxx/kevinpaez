@@ -1,10 +1,10 @@
-@import '../../styles/base/variables.scss';
-@import '../../styles/base/mixins.scss';
+@use '../../styles/base/variables.scss';
+@use '../../styles/base/mixins.scss';
 
 .skills {
   min-height: 100vh;
-  background-color: $black-color-primary;
-  color: $white-color-secondary;
+  background-color: variables.$black-color-primary;
+  color: variables.$white-color-secondary;
 
   display: flex;
   justify-content: center;
@@ -12,7 +12,7 @@
 
   font-size: 3.6rem;
 
-  @include responsive-mobile {
+  @include mixins.responsive-mobile {
     font-size: 2.4rem;
   }
 
@@ -24,7 +24,7 @@
     flex-direction: column;
     gap: 32px;
 
-    @include responsive-mobile {
+    @include mixins.responsive-mobile {
       margin-top: 100px;
       margin-bottom: 20px;
       // justify-content: center;

@@ -1,10 +1,12 @@
-@import '../../styles/base/variables.scss';
-@import '../../styles/base/mixins.scss';
+@use '../../styles/base/variables.scss';
+@use '../../styles/base/mixins.scss';
+
+// @use '../../styles/main.scss' as *;
 
 .about {
   min-height: 50vh;
-  background-color: $black-color-secondary;
-  color: $white-color-secondary;
+  background-color: variables.$black-color-secondary;
+  color: variables.$white-color-secondary;
 
   display: flex;
   justify-content: center;
@@ -12,7 +14,7 @@
 
   font-size: 3.6rem;
 
-  @include responsive-mobile {
+  @include mixins.responsive-mobile {
     font-size: 2.4rem;
   }
 
@@ -24,7 +26,7 @@
     flex-direction: column;
     gap: 22px;
 
-    @include responsive-mobile {
+    @include mixins.responsive-mobile {
       margin-top: 100px;
       // justify-content: center;
       align-items: center;
