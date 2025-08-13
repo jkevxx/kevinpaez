@@ -6,8 +6,17 @@ import Backend from 'i18next-http-backend';
 
 // import translationSpanish from " ./public/locales/es/translation.json";
 
-i18n.use(Backend).use(LanguageDetector).use(initReactI18next).init({
-  fallbackLng: 'en',
-});
+i18n
+  .use(Backend)
+  .use(LanguageDetector)
+  .use(initReactI18next)
+  .init({
+    fallbackLng: 'en',
+    backend: {
+      loadPath: '/locales/{{lng}}/{{ns}}.json',
+    },
+    load: 'languageOnly',
+    // debug: true,
+  });
 
 export default i18n;
