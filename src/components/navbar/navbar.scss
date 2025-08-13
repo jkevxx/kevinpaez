@@ -1,5 +1,5 @@
-@import '../../styles/base/variables.scss';
-@import '../../styles/base/mixins.scss';
+@use '../../styles/base/variables.scss';
+@use '../../styles/base/mixins.scss';
 
 @mixin links-styles {
 }
@@ -12,18 +12,18 @@ header {
   align-items: center;
   gap: 20px;
 
-  // background-color: $black-color-primary;
-  border-bottom: 1px solid $purple-color-primary;
+  // background-color: variables.$black-color-primary;
+  border-bottom: 1px solid variables.$purple-color-primary;
   position: fixed;
 
-  @include responsive-mobile {
+  @include mixins.responsive-mobile {
     justify-content: flex-end;
   }
 
   .navbar {
     height: 100%;
     width: 90%;
-    color: $white-color-secondary;
+    color: variables.$white-color-secondary;
     // backdrop-filter: blur(8px);
 
     display: flex;
@@ -31,7 +31,7 @@ header {
     align-items: center;
     gap: 40px;
 
-    @include responsive-mobile {
+    @include mixins.responsive-mobile {
       min-height: 100vh;
       width: 100%;
       backdrop-filter: blur(10px);
@@ -39,7 +39,7 @@ header {
       position: fixed;
       top: 0;
       left: 0;
-      z-index: $z-index-medium;
+      z-index: variables.$z-index-medium;
 
       transform: translateX(100%);
       transition: transform 0.3s ease;
@@ -52,7 +52,7 @@ header {
       gap: 40px;
       list-style: none;
 
-      @include responsive-mobile {
+      @include mixins.responsive-mobile {
         flex-direction: column;
       }
     }
@@ -74,7 +74,7 @@ header {
         transform: translateX(-50%);
         height: 2px;
         width: 0;
-        background-color: $purple-color-primary;
+        background-color: variables.$purple-color-primary;
         transition: width 0.3s ease-in-out;
       }
       &:hover::before {
@@ -82,12 +82,12 @@ header {
       }
 
       &:hover {
-        color: $purple-color-primary;
+        color: variables.$purple-color-primary;
       }
     }
 
     .active-section {
-      // border-bottom: 1px solid $purple-color-primary;
+      // border-bottom: 1px solid variables.$purple-color-primary;
       &::before {
         content: '';
         position: absolute;
@@ -96,7 +96,7 @@ header {
         transform: translateX(-50%);
         height: 2px;
         width: 100%;
-        background-color: $purple-color-primary;
+        background-color: variables.$purple-color-primary;
         transition: width 0.3s ease-in-out;
       }
     }
@@ -105,7 +105,7 @@ header {
   .language {
     font-size: 1.8rem;
     background-color: transparent;
-    color: $white-color-secondary;
+    color: variables.$white-color-secondary;
     border: none;
     cursor: pointer;
 
@@ -113,22 +113,22 @@ header {
     top: -4px;
 
     &:hover {
-      color: $purple-color-primary;
+      color: variables.$purple-color-primary;
     }
 
     option {
-      // background-color: $black-color-primary;
+      // background-color: variables.$black-color-primary;
       border: none;
 
       &:hover {
-        // background-color: $black-color-primary;
-        // color: $purple-color-primary;
+        // background-color: variables.$black-color-primary;
+        // color: variables.$purple-color-primary;
       }
 
       &::before {
         content: '';
-        background-color: $black-color-primary;
-        color: $purple-color-primary;
+        background-color: variables.$black-color-primary;
+        color: variables.$purple-color-primary;
       }
     }
   }
@@ -146,7 +146,7 @@ header {
     border: none;
     cursor: pointer;
     position: relative;
-    z-index: $z-index-max;
+    z-index: variables.$z-index-max;
     right: 10px;
     top: -4px;
   }

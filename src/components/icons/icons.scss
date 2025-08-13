@@ -1,4 +1,4 @@
-@import '../../styles/base/mixins.scss';
+@use '../../styles/base/mixins.scss';
 
 .icons {
   display: flex;
@@ -7,7 +7,7 @@
   flex-wrap: wrap;
   gap: 10px;
 
-  @include responsive-mobile {
+  @include mixins.responsive-mobile {
     margin-top: 10px;
   }
 
@@ -20,7 +20,7 @@
     height: 140px;
     gap: 10px;
 
-    @include responsive-mobile {
+    @include mixins.responsive-mobile {
       width: 120px;
       height: 120px;
     }

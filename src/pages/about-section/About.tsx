@@ -7,7 +7,7 @@ const About = () => {
   return (
     <section id="about" className="about">
       <div className="about-content">
-        <h1>{t('about.title')}</h1>
+        <p className="about-title">{t('about.title')}</p>
         <p>{t('about.subtitle')}</p>
         <p>{t('about.experience')}</p>
         <p>{t('about.final-subtitle')}</p>

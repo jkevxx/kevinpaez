@@ -1,9 +1,9 @@
-@import '../../styles/base/variables.scss';
+@use '../../styles/base/variables.scss';
 
 footer {
   min-height: 12vh;
-  background-color: $black-color-primary;
-  color: $white-color-secondary;
+  background-color: variables.$black-color-primary;
+  color: variables.$white-color-secondary;
   width: 100%;
 
   display: flex;
@@ -22,10 +22,10 @@ footer {
       display: inline-block;
 
       svg {
-        fill: $white-color-secondary;
+        fill: variables.$white-color-secondary;
 
         &:hover {
-          fill: $purple-color-primary;
+          fill: variables.$purple-color-primary;
         }
       }
     }
