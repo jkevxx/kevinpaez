@@ -9,7 +9,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 3.6rem;
 
   @include mixins.responsive-mobile {
     font-size: 2.4rem;
@@ -33,16 +32,18 @@
       height: auto;
     }
 
-    h2 {
-      color: variables.$purple-color-primary;
-      font-size: 3.6rem;
+    h1 {
+      font-size: 6.6rem;
 
       @include mixins.responsive-mobile {
         font-size: 3rem;
       }
     }
 
-    h1 {
+    h2 {
+      color: variables.$purple-color-primary;
+      font-size: 3.6rem;
+
       @include mixins.responsive-mobile {
         font-size: 3rem;
       }

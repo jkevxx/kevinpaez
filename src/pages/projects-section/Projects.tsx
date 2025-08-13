@@ -9,7 +9,7 @@ const Projects = () => {
   return (
     <section id="projects" className="projects">
       <div className="projects-content">
-        <h1>{t('projects.title')}</h1>
+        <p>{t('projects.title')}</p>
 
         <div className="cards">
           {dataProjects.map((item) => (

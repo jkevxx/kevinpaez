@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <section id="contact" className="contact">
       <div className="contact-content">
-        <h1>{t('contact.title')}</h1>
+        <p>{t('contact.title')}</p>
         <Form />
       </div>
     </section>
