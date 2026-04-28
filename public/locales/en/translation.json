@@ -8,14 +8,14 @@
   },
   "home": {
     "title": "Hi, I'm Kevin Paez",
-    "subtitle": "Web Developer",
+    "subtitle": "Software Engineer",
     "button": "Download CV",
     "cvLink": "https://drive.google.com/file/d/1T8bIGeHvzGcARj-_aKWUOxQ-VTCKmu4x/view?usp=sharing"
   },
   "about": {
     "title": "About Me",
-    "subtitle": "I am a passionate developer with significant experience in web design and development across various projects. Committed to continuous learning to enhance my Full-Stack development skills.",
-    "experience": "My journey spans over 2 years in web development involving a skill set that spans both front-end and back-end technologies",
+    "subtitle": "I’m a Software Engineer passionate about building solutions that make a real impact. My journey started in web development, where I worked extensively with React.js to create responsive, user-focused applications, but I have gradually shifted my focus toward backend development and process automation.",
+    "experience": "At the same time, I continue to develop my skills in the Java ecosystem, especially in Spring Boot, as well as other topics such as microservices, cloud providers, and software architecture.",
     "final-subtitle": "I’m excited about the endless possibilities that technology offers, and I’m always eager to take on new and exciting projects."
   },
   "skills": {

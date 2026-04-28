@@ -12,14 +12,14 @@ const Skills = () => {
       <div className="skills-content">
         <p>{t('skills.title')}</p>
 
-        <div className="front-end">
-          <h2>Front-End</h2>
-          <Icons dataIcons={dataFrontIcons} />
-        </div>
-
         <div className="back-end">
           <h2>Back-End</h2>
           <Icons dataIcons={dataBackIcons} />
+        </div>
+
+        <div className="front-end">
+          <h2>Front-End</h2>
+          <Icons dataIcons={dataFrontIcons} />
         </div>
       </div>
     </section>

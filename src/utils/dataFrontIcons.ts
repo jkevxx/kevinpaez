@@ -23,14 +23,14 @@ export const dataFrontIcons = [
       alt: 'sass',
     },
   },
-  {
-    id: 'bootstrap',
-    title: 'Bootstrap',
-    img: {
-      src: '/img/front/bootstrap.webp',
-      alt: 'bootstrap',
-    },
-  },
+  // {
+  //   id: 'bootstrap',
+  //   title: 'Bootstrap',
+  //   img: {
+  //     src: '/img/front/bootstrap.webp',
+  //     alt: 'bootstrap',
+  //   },
+  // },
   {
     id: 'tailwindcss',
     title: 'Tailwind CSS',
@@ -39,22 +39,15 @@ export const dataFrontIcons = [
       alt: 'tailwind',
     },
   },
-  {
-    id: 'materialui',
-    title: 'Material UI',
-    img: {
-      src: '/img/front/materialui.webp',
-      alt: 'material ui',
-    },
-  },
-  {
-    id: 'figma',
-    title: 'Figma',
-    img: {
-      src: '/img/front/figma.webp',
-      alt: 'figma',
-    },
-  },
+  // {
+  //   id: 'materialui',
+  //   title: 'Material UI',
+  //   img: {
+  //     src: '/img/front/materialui.webp',
+  //     alt: 'material ui',
+  //   },
+  // },
+
   {
     id: 'javascript',
     title: 'JavaScript',
@@ -87,12 +80,20 @@ export const dataFrontIcons = [
       alt: 'redux toolkit',
     },
   },
+  // {
+  //   id: 'reactrouter',
+  //   title: 'React Router Dom',
+  //   img: {
+  //     src: '/img/front/reactrouter.webp',
+  //     alt: 'react router',
+  //   },
+  // },
   {
-    id: 'reactrouter',
-    title: 'React Router Dom',
+    id: 'figma',
+    title: 'Figma',
     img: {
-      src: '/img/front/reactrouter.webp',
-      alt: 'react router',
+      src: '/img/front/figma.webp',
+      alt: 'figma',
     },
   },
 ];
